@@ -6,7 +6,8 @@ body {
 }
 
 header {
-  background-color: #b6cbcf;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(220,255,255,1) 100%);
 }
 
 .nav_bar {
@@ -64,12 +65,13 @@ header p {
 
 .coline-gauche {
   position: absolute;
-  top: 10px;
+  top: 230px;
 }
 
 .coline-droite {
   position: absolute;
-  top: 170px;
+  top: 260px;
+  right: 0;
 }
 .coline-fond {
   position: absolute;
