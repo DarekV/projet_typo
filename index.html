@@ -8,50 +8,56 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://use.typekit.net/sci3axu.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
 </head>
 <body>
+  <div class="nav_bar">
+    <img src="img/logo.svg" alt="image logo">
+    <nav>
+      <ul>
+        <li>
+          <a href="">Resistenza</a>
+        </li>
+        <li>
+          <a href="">Resistenza</a>
+        </li>
+        <li>
+          <a href="">Resistenza</a>
+        </li>
+        <li>
+          <a href="">Resistenza</a>
+        </li>
+      </ul>
+      <div class="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+  </div>
   <header>
-    <div class="nav_bar">
-      <img src="img/logo.svg" alt="image logo">
-      <nav>
-        <ul>
-          <li>
-            <a href="">Resistenza</a>
-          </li>
-          <li>
-            <a href="">Resistenza</a>
-          </li>
-          <li>
-            <a href="">Resistenza</a>
-          </li>
-          <li>
-            <a href="">Resistenza</a>
-          </li>
-        </ul>
-        <div class="burger">
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-      </nav>
-    </div>
     <h1>Natura</h1>
     <p class="sous-titre">By Resistenza</p>
-    <div class="coline-container">
-      <img class="coline-fond" src="img/image_m.png" alt="coline">
-      <img class="coline-droite" src="img/image_o.png" alt="coline">
-      <img class="coline-gauche" src="img/image_b.png" alt="coline">
+    <div class="lettre-container">
+      <img class="image-m" src="img/image_m.png" alt="coline">
+      <img class="image-o" src="img/image_o.png" alt="coline">
+      <img class="image-b" src="img/image_b.png" alt="coline">
     </div>
   </header>
   <main>
-    <h2>
-      Resistenza
-    </h2>
-    <p>
-      Resistenza est une fonderie typographique composée de Giuseppe Salerno. Travaillant principalement à la main, une qualité humaniste et audacieuse se dégage de leur design graphique, qui met l’accent sur un lien avec les lieux et les personnes qui utilisent un produit ou un service particulier.  Le duo fait preuve d’une profonde passion pour donner vie à la typographie. Commençant généralement du stylo et du papier pour finalement passer au numérique, les deux coéquipiers expriment les particularités de leurs caractères au travers de l’influence des différentes villes où ils travaillent et vivent (Berlin, Madrid, Turin et Valence).
-    </p>
+    <div class="information">
+      <h2>
+        Resistenza
+      </h2>
+      <p>
+        Resistenza est une fonderie typographique composée de Giuseppe Salerno. Travaillant principalement à la main, une qualité humaniste et audacieuse se dégage de leur design graphique, qui met l’accent sur un lien avec les lieux et les personnes qui utilisent un produit ou un service particulier.  Le duo fait preuve d’une profonde passion pour donner vie à la typographie. Commençant généralement du stylo et du papier pour finalement passer au numérique, les deux coéquipiers expriment les particularités de leurs caractères au travers de l’influence des différentes villes où ils travaillent et vivent (Berlin, Madrid, Turin et Valence).
+      </p>
+    </div>
   </main>
-  <script src="js/scrollmagic/uncompressed/ScrollMagic.js"></script>
-  <script src="scripts/index.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>
