@@ -1,5 +1,3 @@
-// burger
-
 const burger = document.querySelector(".burger");
 const navi = document.querySelector(".navi");
 
@@ -10,8 +8,6 @@ burger.addEventListener("click", () => {
 navi.addEventListener("click", () => {
   navi.classList.toggle("navi-activ");
 });
-
-// scroll Magic
 
 var controller = new ScrollMagic.Controller();
 
@@ -47,8 +43,6 @@ var containerScene = new ScrollMagic.Scene({
 })
   .setTween(mtween)
   .addTo(controller);
-
-// carousel
 
 const track = document.querySelector(".carousel-slide");
 const slides = Array.from(track.children);
