@@ -88,13 +88,6 @@ header h1 {
   text-align: center;
 }
 
-header p {
-  font-family: natura, serif;
-  font-size: 20px;
-  text-align: center;
-  margin: 0;
-}
-
 .lettre-container {
   width: 380px;
   height: 800px;
@@ -109,12 +102,12 @@ header p {
 
 .image-o {
   position: absolute;
-  top: 260px;
+  top: 240px;
   right: 0;
 }
 .image-m {
   position: absolute;
-  top: 130px;
+  top: 100px;
 }
 
 /* Main */
