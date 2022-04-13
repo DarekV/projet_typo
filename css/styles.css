@@ -140,7 +140,7 @@ main {
 .carousel {
   position: relative;
   height: 175px;
-  margin: 0px;
+  margin: 35px 0 0;
   overflow: hidden;
 }
 
@@ -159,6 +159,11 @@ main {
 .slide {
   position: absolute;
   width: 100%;
+}
+
+.slide img {
+  border: 1px solid #6FA35F;
+  border-radius: 25px;
 }
 
 .carousel-left,
@@ -190,4 +195,25 @@ h3 {
   font-family: karmina, serif;
   font-size: 20px;
   margin: 60px 40px 0;
+}
+
+textarea {
+  margin: 30px 40px 0;
+  height: 55px;
+  width: 260px;
+  padding: 0 20px ;
+  border-radius: 50px;
+  font-family: natura, serif;
+  font-size: 30px;
+}
+
+.slanted {
+  font-family: natura, serif;
+  font-style: italic;
+}
+
+hr {
+  margin: 55px 20px 140px;
+  border: 2px solid #6FA35F;
+  border-radius: 50px;
 }
