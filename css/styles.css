@@ -19,38 +19,42 @@ body {
   align-items: center;
   padding: 0 20px;
   background: none;
-  z-index: 999;
-}
-
-.navi {
-  background-color: gray;
-  display: block;
-  height: 100vh;
-  position: fixed;
-  width: 100vh;
-  height: 100vh;
-  margin: 0px;
-  left: 100%;
-  transition: 0.5s;
-  padding-left: 0px;
-}
-
-.navi.activ {
-  left: 0;
-  transition: 0.5s;
-}
-
-header {
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(220,255,255,1) 100%);
+  z-index: 2;
 }
 
 .nav_bar img {
-  width: 80px;
+  width: 250px;
 }
 
-nav ul {
+.navi {
+  padding: 0;
+  top: 0;
+  position: absolute;
   display: none;
+}
+
+.navi.navi-activ {
+  display: block;
+  left: 0;
+  width: 380px;
+  height: 2000px;
+  margin: 0;
+  background-color: rgba(220,255,255,0.7);
+}
+
+li {
+  display: flex;
+  margin: 100px 40px;
+  list-style: none;
+}
+
+li a {
+  margin: auto;
+  color: black;
+  font-family: karmina, serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-decoration: none;
 }
 
 .burger {
@@ -60,19 +64,22 @@ nav ul {
   justify-content: space-between;
 }
 
-
-
 .burger div {
   height: 2px;
   width: 35px;
   background-color: black;
 }
 
+header {
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(220,255,255,1) 100%);
+}
+
 header h1 {
   font-family: natura, serif;
   font-size: 60px;
   font-weight: 400;
-  margin: 0;
+  margin: 75px 0 0;
   text-align: center;
 }
 
@@ -88,7 +95,6 @@ header p {
   height: 800px;
   position: relative;
   margin-top: 20px;
-  z-index: 1;
 }
 
 .image-b {
@@ -114,7 +120,7 @@ main {
 
 .information {
   position: relative;
-  z-index: 2;
+  z-index: 1;
   margin: 140px 20px 0px;
   color: white;
 }
@@ -168,4 +174,20 @@ main {
 
 .carousel-right {
   right: 50px;
+}
+
+h2 {
+  font-family: karmina, serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.titre-fonts {
+  margin-top: 200px;
+}
+
+h3 {
+  font-family: karmina, serif;
+  font-size: 20px;
+  margin: 60px 40px 0;
 }
