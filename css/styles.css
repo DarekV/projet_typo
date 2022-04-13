@@ -6,7 +6,7 @@ html {
 
 body {
   margin: auto;
-  background-color: rgba(220,255,255,1);
+  background-color: rgba(220, 255, 255, 1);
   width: 380px;
 }
 
@@ -39,7 +39,7 @@ body {
   width: 380px;
   height: 2000px;
   margin: 0;
-  background-color: rgba(220,255,255,0.7);
+  background-color: rgba(220, 255, 255, 0.8);
 }
 
 li {
@@ -71,8 +71,12 @@ li a {
 }
 
 header {
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(220,255,255,1) 100%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(220, 255, 255, 1) 100%
+  );
 }
 
 header h1 {
@@ -139,16 +143,22 @@ main {
 
 .carousel {
   position: relative;
-  height: 175px;
+  height: 177px;
   margin: 35px 0 0;
   overflow: hidden;
 }
 
-.slide img {
+.slide img,
+.slide2 img,
+.slide3 img {
   margin: 0 40px;
+  border: 1px solid #6fa35f;
+  border-radius: 25px;
 }
 
-.carousel-slide {
+.carousel-slide,
+.carousel-slide2,
+.carousel-slide3 {
   padding: 0;
   margin: 0;
   position: relative;
@@ -156,28 +166,33 @@ main {
   transition: transform 300ms;
 }
 
-.slide {
+.slide,
+.slide2,
+.slide3 {
   position: absolute;
   width: 100%;
 }
 
-.slide img {
-  border: 1px solid #6FA35F;
-  border-radius: 25px;
-}
-
 .carousel-left,
-.carousel-right {
+.carousel-right,
+.carousel-left2,
+.carousel-right2,
+.carousel-left3,
+.carousel-right3 {
   position: absolute;
   top: 50%;
   cursor: pointer;
 }
 
-.carousel-left {
+.carousel-left,
+.carousel-left2,
+.carousel-left3 {
   left: 50px;
 }
 
-.carousel-right {
+.carousel-right,
+.carousel-right2,
+.carousel-right3 {
   right: 50px;
 }
 
@@ -201,7 +216,7 @@ textarea {
   margin: 30px 40px 0;
   height: 55px;
   width: 260px;
-  padding: 0 20px ;
+  padding: 0 20px;
   border-radius: 50px;
   font-family: natura, serif;
   font-size: 30px;
@@ -214,6 +229,6 @@ textarea {
 
 hr {
   margin: 55px 20px 140px;
-  border: 2px solid #6FA35F;
+  border: 2px solid #6fa35f;
   border-radius: 50px;
 }
